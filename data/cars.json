@@ -1,0 +1,49 @@
+{
+    "arabalar": {
+        "34PLT34": {
+            "marka": "Fiat",
+            "model": "Egea",
+            "gunlukUcret": 1500,
+            "durum": "müsait",
+            "kiralayan": null,
+            "baslangicTarihi": null,
+            "bitisTarihi": null
+        },
+        "34MMT34": {
+            "marka": "Fiat",
+            "model": "Linea",
+            "gunlukUcret": 1000,
+            "durum": "müsait",
+            "kiralayan": null,
+            "baslangicTarihi": null,
+            "bitisTarihi": null
+        },
+        "67YLCN67": {
+            "marka": "Audi",
+            "model": "A4",
+            "gunlukUcret": 3000,
+            "durum": "müsait",
+            "kiralayan": null,
+            "baslangicTarihi": null,
+            "bitisTarihi": null
+        },
+        "34ALT41": {
+            "marka": "BMW",
+            "model": "320i",
+            "gunlukUcret": 3500,
+            "durum": "müsait",
+            "kiralayan": null,
+            "baslangicTarihi": null,
+            "bitisTarihi": null
+        },
+        "34AMD41": {
+            "marka": "Toyota",
+            "model": "Corolla",
+            "gunlukUcret": 2000,
+            "durum": "müsait",
+            "kiralayan": null,
+            "baslangicTarihi": null,
+            "bitisTarihi": null
+        }
+    }
+}

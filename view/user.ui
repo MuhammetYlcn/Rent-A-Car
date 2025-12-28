@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomerWindow</class>
+ <widget class="QMainWindow" name="CustomerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>👤 Müşteri Paneli - Araç Kiralama</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <widget class="QLabel" name="label_customer_title">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>👤 Müşteri Paneli</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    
+    <item>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="title">
+       <string>🚗 Müsait Araçlar</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_table">
+       <item>
+        <widget class="QLabel" name="label_no_cars">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string>color: #e74c3c; padding: 20px; background-color: #fdf2f2; border: 1px solid #fabfbf; border-radius: 5px;</string>
+         </property>
+         <property name="text">
+          <string>⚠️ Seçilen tarihler arasında müsait araç bulunmamaktadır!</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="visible">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+
+       <item>
+        <widget class="QTableWidget" name="table_available_cars">
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="columnCount">
+          <number>4</number>
+         </property>
+         <column>
+          <property name="text"><string>Plaka</string></property>
+         </column>
+         <column>
+          <property name="text"><string>Marka</string></property>
+         </column>
+         <column>
+          <property name="text"><string>Model</string></property>
+         </column>
+         <column>
+          <property name="text"><string>Günlük Ücret (₺)</string></property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="title">
+       <string>📋 Kiralama İşlemleri</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel">
+         <property name="text"><string>Başlangıç Tarihi:</string></property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QDateEdit" name="entry_start">
+         <property name="calendarPopup"><bool>true</bool></property>
+         <property name="displayFormat"><string>dd.MM.yyyy</string></property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel">
+         <property name="text"><string>Bitiş Tarihi:</string></property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QDateEdit" name="entry_end">
+         <property name="calendarPopup"><bool>true</bool></property>
+         <property name="displayFormat"><string>dd.MM.yyyy</string></property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QPushButton" name="btn_rent">
+         <property name="text"><string>🔑 Seçili Aracı Kirala</string></property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QPushButton" name="btn_return_vehicle">
+         <property name="text"><string>🔙 Aracı İade Et</string></property>
+         <property name="styleSheet">
+          <string>padding: 5px; font-weight: bold;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation"><enum>Qt::Vertical</enum></property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_logout_customer">
+      <property name="text"><string>🚪 Güvenli Çıkış</string></property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

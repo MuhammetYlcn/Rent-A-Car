@@ -1,0 +1,36 @@
+{
+    "kullanicilar": {
+        "muhammet": {
+            "sifre": 123,
+            "admin_mi": true
+        },
+        "yasin": {
+            "sifre": 123,
+            "admin_mi": true
+        },
+        "maria": {
+            "sifre": 123,
+            "admin_mi": true
+        },
+        "ayse": {
+            "sifre": 1234,
+            "admin_mi": false
+        },
+        "Fatma": {
+            "sifre": 12345,
+            "admin_mi": false
+        },
+        "omer": {
+            "sifre": "1234",
+            "admin_mi": false
+        },
+        "fatma": {
+            "sifre": "12345",
+            "admin_mi": false
+        },
+        "nn": {
+            "sifre": "n",
+            "admin_mi": false
+        }
+    }
+}
